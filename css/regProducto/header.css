@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #F5F5F5;
+}
+.container_header {
+    font-size: 16px;
+}
+.container_header header {
+    width: 100%;
+    padding: 0px 10.5%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7.8em;
+    flex-wrap: wrap;
+    background-color: white;
+    overflow: hidden;
+}
+
+.leftheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+}
+.leftheader_logo {
+    display: flex;
+    align-items: center;
+}
+.leftheader_logo h2 {
+    display: block;
+}
+.nomb_logo_2 {
+    color: #1268F3;
+}
+.leftheader_input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.06em solid #C7CDCD;
+    color: #1268F3;
+    background: #F5F5F5;
+    border-radius: 4em;
+    width: 25em;
+    height: 3em;
+}
+.btnNav {
+    background-color: transparent;
+    border: none;
+    padding-top: 0.18em;
+    padding-right: 0.5em;
+}
+.btnNav span {
+    font-size: 1.87em;
+}
+.leftheader_input input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding-left: 0.625em;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 1em;
+}
+.login {
+    background-color: transparent;
+    padding: 0.81em 3.12em;
+    border: 0.062em solid #1268F3;
+    color: #1268F3;
+    cursor: pointer;
+    border-radius: 0.62em;
+    transform: all 0.3s;
+    font-size: 1em;
+}
+.login:hover {
+    transform: scale(1.1);
+}
+@media screen and (max-width:500px) {
+    .container_header {
+        font-size: 10px;
+    }
+
+}

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/home/header.css">
+    <link rel="stylesheet" href="./css/home/banner.css">
+    <link rel="stylesheet" href="./css/home/main.css">
+    <link rel="stylesheet" href="./css/home/contacto.css">
+    <link rel="stylesheet" href="./css/home/footer.css">
+    <link rel="stylesheet" href="./fonts/style.css">
+    <title>Ecomerce</title>
+</head>
+<body>
+    <div class="container_header">
+        <header>
+            <div class="leftheader">
+                <div class="leftheader_logo">
+                    <img class="imgLogo" src="./images/logoGame.png" alt="">
+                    <h2 class="nomb_logo">
+                        <span class="nomb_logo_1">Alura</span>
+                        <span class="nomb_logo_2">Geek</span>
+                    </h2>
+                </div>
+                <div class="leftheader_input">
+                    <input type="text" placeholder="¿Qué deseas buscar?">
+                    <button class="btnNav"><span class="icon-magnifying-glass"></span></button>
+                </div>
+            </div>
+            <div class="rightheader">
+                <button class="login" onclick="window.location.href='/login.html'">Login<span class="icon-user"></span></button>
+            </div>
+        </header>
+    </div>
+
+    <section class="banner">
+        <div class="banner_container">
+            <h1 class="banner_container_title">Febrero Promocional</h1>
+            <h2 class="banner_container_descripcion">Productos seleccionados con 33% de descuento</h2>
+            <button class="banner_container_btn">Ver Consolas</button>
+        </div>
+    </section>
+
+    <main class="main_container">
+        <div class="main_container_1">
+            <div class="main_container_1_nav">
+                <h3>Star Wars</h3>
+                <a href="#">Ver todo <img src="/images/arrow_icon.png" alt=""></a>
+            </div>
+            <div class="main_container_1_container" id="star-wars">
+                <!--<div class="main_container_1_container_box">
+                    <img src="./images/prod_starwars/Skill.png" alt="">
+                    <p class="descri">Producto XYZ</p>
+                    <p class="precio">$ 60,00</p>
+                    <p class="detall">Ver producto</p>
+                </div>
+                <div class="main_container_1_container_box">
+                    <img src="./images/prod_starwars/Skill1.png" alt="">
+                    <p class="descri">Producto XYZ</p>
+                    <p class="precio">$ 60,00</p>
+                    <p class="detall">Ver producto</p>
+                </div>
+                <div class="main_container_1_container_box">
+                    <img src="./images/prod_starwars/Skill2.png" alt="">
+                    <p class="descri">Producto XYZ</p>
+                    <p class="precio">$ 60,00</p>
+                    <p class="detall">Ver producto</p>
+                </div>
+                <div class="main_container_1_container_box">
+                    <img src="./images/prod_starwars/Skill3.png" alt="">
+                    <p class="descri">Producto XYZ</p>
+                    <p class="precio">$ 60,00</p>
+                    <p class="detall">Ver producto</p>
+                </div>
+                <div class="main_container_1_container_box">
+                    <img src="./images/prod_starwars/Skill4.png" alt="">
+                    <p class="descri">Producto XYZ</p>
+                    <p class="precio">$ 60,00</p>
+                    <p class="detall">Ver producto</p>
+                </div>
+                <div class="main_container_1_container_box">
+                    <img src="./images/prod_starwars/Skill5.png" alt="">
+                    <p class="descri">Producto XYZ</p>
+                    <p class="precio">$ 60,00</p>
+                    <p class="detall">Ver producto</p>
+                </div>-->
+            <!--aqui va los productos desde JS-->
+            </div>
+        </div>
+
+        <div class="main_container_1">
+            <div class="main_container_1_nav">
+                <h3>Consolas</h3>
+                <a href="#">Ver todo <img src="/images/arrow_icon.png" alt=""></a>
+            </div>
+            <div class="main_container_1_container" id="consolas">
+                <!--<div class="main_container_1_container_box">
+                    <img src="./images/prod_consolas/Skill.png" alt="">
+                    <p class="descri">Producto XYZ</p>
+                    <p class="precio">$ 60,00</p>
+                    <p class="detall">Ver producto</p>
+                </div>
+                <div class="main_container_1_container_box">
+                    <img src="./images/prod_consolas/Skill1.png" alt="">
+                    <p class="descri">Producto XYZ</p>
+                    <p class="precio">$ 60,00</p>
+                    <p class="detall">Ver producto</p>
+                </div>
+                <div class="main_container_1_container_box">
+                    <img src="./images/prod_consolas/Skill2.png" alt="">
+                    <p class="descri">Producto XYZ</p>
+                    <p class="precio">$ 60,00</p>
+                    <p class="detall">Ver producto</p>
+                </div>
+                <div class="main_container_1_container_box">
+                    <img src="./images/prod_consolas/Skill3.png" alt="">
+                    <p class="descri">Producto XYZ</p>
+                    <p class="precio">$ 60,00</p>
+                    <p class="detall">Ver producto</p>
+                </div>
+                <div class="main_container_1_container_box">
+                    <img src="./images/prod_consolas/Skill4.png" alt="">
+                    <p class="descri">Producto XYZ</p>
+                    <p class="precio">$ 60,00</p>
+                    <p class="detall">Ver producto</p>
+                </div>
+                <div class="main_container_1_container_box">
+                    <img src="./images/prod_consolas/Skill5.png" alt="">
+                    <p class="descri">Producto XYZ</p>
+                    <p class="precio">$ 60,00</p>
+                    <p class="detall">Ver producto</p>
+                </div>-->
+            <!--aqui va los productos desde JS-->
+            </div>
+        </div>
+
+        <div class="main_container_1">
+            <div class="main_container_1_nav">
+                <h3>Diversos</h3>
+                <a href="#">Ver todo <img src="/images/arrow_icon.png" alt=""></a>
+            </div>
+            <div class="main_container_1_container" id="diversos">
+                <!--<div class="main_container_1_container_box">
+                    <img src="./images/prod_diversos/Skill.png" alt="">
+                    <p class="descri">Producto XYZ</p>
+                    <p class="precio">$ 60,00</p>
+                    <p class="detall">Ver producto</p>
+                </div>
+                <div class="main_container_1_container_box">
+                    <img src="./images/prod_diversos/Skill1.png" alt="">
+                    <p class="descri">Producto XYZ</p>
+                    <p class="precio">$ 60,00</p>
+                    <p class="detall">Ver producto</p>
+                </div>
+                <div class="main_container_1_container_box">
+                    <img src="./images/prod_diversos/Skill2.png" alt="">
+                    <p class="descri">Producto XYZ</p>
+                    <p class="precio">$ 60,00</p>
+                    <p class="detall">Ver producto</p>
+                </div>
+                <div class="main_container_1_container_box">
+                    <img src="./images/prod_diversos/Skill3.png" alt="">
+                    <p class="descri">Producto XYZ</p>
+                    <p class="precio">$ 60,00</p>
+                    <p class="detall">Ver producto</p>
+                </div>
+                <div class="main_container_1_container_box">
+                    <img src="./images/prod_diversos/Skill4.png" alt="">
+                    <p class="descri">Producto XYZ</p>
+                    <p class="precio">$ 60,00</p>
+                    <p class="detall">Ver producto</p>
+                </div>
+                <div class="main_container_1_container_box">
+                    <img src="./images/prod_diversos/Skill5.png" alt="">
+                    <p class="descri">Producto XYZ</p>
+                    <p class="precio">$ 60,00</p>
+                    <p class="detall">Ver producto</p>
+                </div>-->
+            <!--aqui va los productos desde JS-->
+            </div>
+        </div>
+    </main>
+
+    <div class="contacto">
+        <div class="contact_main">
+            <div class="contact_logo">
+                <img src="/images/logoGame.png" alt="">
+                <h3><span>Alura</span>Geek</h3>
+            </div>
+            <div class="contact_more">
+                <p class="parafo">Quienes somos</p>
+                <p class="parafo">Política de privacidad</p>
+                <p class="parafo">Programa de fidelidad</p>
+                <p class="parafo">Nuestras Tiendas</p>
+                <p class="parafo">Quiero ser franquiciado</p>
+                <p class="parafo">Anúncie aquí</p>
+            </div>
+        </div>
+        <div class="contact_inputs">
+            <p>Hable con nosotros</p>
+            <input class="inputnombre" type="text" placeholder="Nombre">
+            <input class="textarea" type="text" placeholder="Escribe tu mensaje">
+            <button class="btncontact">Enviar mensaje</button>
+        </div>
+        <!--</div>-->
+    </div>
+
+    <footer>
+        <p>Desarrollado por Ruben Limachi Huallpa</p>
+        <p>2023</p>
+    </footer>
+
+    <script type="module" src="./controllers/productos-controller.js"></script>
+
+</body>
+</html>

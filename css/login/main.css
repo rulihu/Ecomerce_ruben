@@ -1,0 +1,175 @@
+/*.form_formulario {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;comentar esto
+}*/
+.form_cabecera{
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1920px) {  
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #f5f5f5;
+    }
+    .form_container {
+      display: flex;
+      width: 100vw;
+      height: 40vh;
+      align-items: center;
+      justify-content: center;
+    }
+    .form_formulario {
+      display: flex;
+      flex-direction: column;
+      width: 30vw;
+      max-width: 600px;
+      line-height: 2vh;
+      align-items: center;
+      border: none;
+    } 
+    .contenedor_input { 
+      font-weight: 150;
+      position: relative;
+      margin-bottom: 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      box-sizing: border-box;
+    }    
+    .form_input_email,
+    .form_input_password {
+      width: 30vw;
+      height: 5vh;
+      margin-bottom: 0.5rem;
+      /*add*/
+      box-sizing: border-box;
+      padding: 30px 16px;
+      border: none;
+      border-radius: 8px;
+      font-size: 18px;
+    }
+    .form_input_email::placeholder,
+    .form_input_password::placeholder{
+      visibility: hidden;
+      /*color:#b9b9b9;*/
+    }
+    .form_input_email:focus, .form_input_password:focus {
+      outline: none;
+    }
+    .input-label {
+      position: absolute;
+      color:#a2a2a2;
+      top: 22px;
+      left: 16px;
+      font-size: 16px;
+      pointer-events: none;
+      transition: all 0.25s;
+    }
+    /*.form_input_email:focus ~ label {
+      top: -1.01px;
+      font-size: 12px;
+      color:#464646;
+    }
+    .form_input_password:focus ~ label {
+      top: -1px;
+      font-size: 12px;
+      color:#464646;
+    }*/
+    .form_input_email:focus+.input-label,
+    .form_input_email:not(:placeholder-shown)+.input-label,
+    .form_input_password:focus+.input-label,
+    .form_input_password:not(:placeholder-shown)+.input-label {
+      top: 3px;
+      left: 16px;
+      font-size: 12px;
+      color:#464646;
+    }
+    .form_submit {
+      all: unset;
+      width: 28vw;
+      height: 3vh;
+      font-size: 1rem;
+      text-align: center;
+      border-style: solid;
+      border-width: 0.01rem;
+      padding: 1rem;
+      background-color: rgb(16, 107, 160);
+      color: rgb(255, 255, 255);
+      transition: all 0.2s;
+    }
+    .form_submit:hover {
+      transform: scale(1.03);
+    }
+  }
+  
+@media screen and (max-width: 768px) {
+    main {
+      height: 38vh;
+    }
+    .form_container {
+      height: 35vh;
+    }
+    .contenedor_input { 
+      /*background-color: red;*/
+      width: 70vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    } 
+
+    .form_input_email,
+    .form_input_password {
+      height: 3vh;
+      width: 70vw;
+    }
+    .form_submit {
+      width: 25vw;
+      height: 4vh;
+      padding: 0.5rem;
+    }
+    .form_cabecera{
+      font-size: 25px;
+      padding-top: 30px;
+      padding-bottom: 15px;
+    }
+  }
+  
+ @media screen and (max-width: 360px) {
+    main {
+      height: 35vh;
+      justify-content: center;
+    }
+    .form_container {
+      height: 15vh;
+      width: 80vw;
+    }
+    .form_formulario {
+      width: 80vw;
+    }
+  
+    .form_cabecera {
+      margin-block-start: 0;
+    }
+  
+    .form_input_email,
+    .form_input_password {
+      height: 1.5vh;
+      width: 80vw;
+      border: none;
+    }
+  
+    .form_submit {
+      width: 25vw;
+    }
+}
+  

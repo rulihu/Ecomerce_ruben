@@ -1,0 +1,177 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Baby Yoda",
+      "precio": 300,
+      "imagen": "./images/prod_starwars/Skill.png",
+      "categoria": "star",
+      "link": "./vista-producto.html"
+    },
+    {
+      "id": 2,
+      "nombre": "Darth Vader",
+      "precio": 175,
+      "imagen": "./images/prod_starwars/Skill1.png",
+      "categoria": "star",
+      "link": "./vista-producto.html"
+    },
+    {
+      "id": 3,
+      "nombre": "Storm Trooper",
+      "precio": 150,
+      "imagen": "./images/prod_starwars/Skill2.png",
+      "categoria": "star",
+      "link": "./vista-producto.html"
+    },
+    {
+      "id": 4,
+      "nombre": "Taza Trooper",
+      "precio": 280,
+      "imagen": "./images/prod_starwars/Skill3.png",
+      "categoria": "star",
+      "link": "./vista-producto.html"
+    },
+    {
+      "id": 5,
+      "nombre": "Lego´s",
+      "precio": 370,
+      "imagen": "./images/prod_starwars/Skill4.png",
+      "categoria": "star",
+      "link": "./vista-producto.html"
+    },
+    {
+      "id": 6,
+      "nombre": "Poster Yoda",
+      "precio": 65,
+      "imagen": "./images/prod_starwars/Skill5.png",
+      "categoria": "star",
+      "link": "./vista-producto.html"
+    },
+    {
+      "id": 7,
+      "nombre": "Control Xbox",
+      "precio": 750,
+      "imagen": "./images/prod_consolas/Skill.png",
+      "categoria": "consolas",
+      "link": "./vista-producto.html"
+    },
+    {
+      "id": 8,
+      "nombre": "Playera gamer",
+      "precio": 145,
+      "imagen": "./images/prod_consolas/Skill1.png",
+      "categoria": "consolas",
+      "link": "./vista-producto.html"
+    },
+    {
+      "id": 9,
+      "nombre": "PS5",
+      "precio": 8500,
+      "imagen": "./images/prod_consolas/Skill2.png",
+      "categoria": "consolas",
+      "link": "./vista-producto.html"
+    },
+    {
+      "id": 10,
+      "nombre": "Nintendo Switch",
+      "precio": 6200,
+      "imagen": "./images/prod_consolas/Skill3.png",
+      "categoria": "consolas",
+      "link": "./vista-producto.html"
+    },
+    {
+      "id": 11,
+      "nombre": "Xbox X",
+      "precio": 12000,
+      "imagen": "./images/prod_consolas/Skill4.png",
+      "categoria": "consolas",
+      "link": "./vista-producto.html"
+    },
+    {
+      "id": 12,
+      "nombre": "Nintendo Retro",
+      "precio": 3450,
+      "imagen": "./images/prod_consolas/Skill5.png",
+      "categoria": "consolas",
+      "link": "./vista-producto.html"
+    },
+    {
+      "id": 13,
+      "nombre": "Pikachu",
+      "precio": 250,
+      "imagen": "./images/prod_diversos/Skill.png",
+      "categoria": "diversos",
+      "link": "./vista-producto.html"
+    },
+    {
+      "id": 14,
+      "nombre": "Sonic",
+      "precio": 250,
+      "imagen": "./images/prod_diversos/Skill1.png",
+      "categoria": "diversos",
+      "link": "./vista-producto.html"
+    },
+    {
+      "id": 15,
+      "nombre": "Radio retro",
+      "precio": 200,
+      "imagen": "./images/prod_diversos/Skill2.png",
+      "categoria": "diversos",
+      "link": "./vista-producto.html"
+    },
+    {
+      "id": 16,
+      "nombre": "Tetrix",
+      "precio": 100,
+      "imagen": "./images/prod_diversos/Skill3.png",
+      "categoria": "diversos",
+      "link": "./vista-producto.html"
+    },
+    {
+      "id": 17,
+      "nombre": "Visores AR",
+      "precio": 4800,
+      "imagen": "./images/prod_diversos/Skill4.png",
+      "categoria": "diversos",
+      "link": "./vista-producto.html"
+    },
+    {
+      "id": 18,
+      "nombre": "Producto misterioso mody",
+      "precio": "250",
+      "imagen": "./images/prod_diversos/Skill5.png",
+      "categoria": "diversos"
+    },
+    {
+      "id": "2b002214-352a-4bd8-a302-a544bcb039ca",
+      "nombre": "Pancho",
+      "precio": "150",
+      "imagen": "./images/prod_diversos/Skill5.png",
+      "categoria": "star"
+    },
+    {
+      "id": "f35bf081-0626-45c4-9bc9-e58709ea7180",
+      "nombre": "prueba",
+      "precio": "150",
+      "imagen": "./images/prod_starwars/Skill.png",
+      "categoria": "star",
+      "link": "./vista-producto.html"
+    },
+    {
+      "id": "75c6ca30-ffbf-4367-a0ce-9ad7640dd642",
+      "nombre": "prueba",
+      "precio": "150",
+      "imagen": "./images/prod_starwars/Skill3.png",
+      "categoria": "star",
+      "link": "./vista-producto.html"
+    }
+  ],
+  "usuarios": [
+    {
+      "correo": "correo@correo.com",
+      "password": "12345",
+      "id": 1
+    }
+  ]
+}

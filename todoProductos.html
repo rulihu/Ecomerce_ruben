@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/todoProducto/main.css">
+    <link rel="stylesheet" href="./css/todoProducto/header.css">
+    <link rel="stylesheet" href="./css/todoProducto/contacto.css">
+    <link rel="stylesheet" href="./css/todoProducto/footer.css">
+    <link rel="stylesheet" href="./fonts/style.css">
+    <title>Lista de producto</title>
+</head>
+<body>
+    <div class="container_header">
+        <header>
+            <div class="leftheader">
+                <div class="leftheader_logo">
+                    <img class="imgLogo" src="./images/logoGame.png" alt="">
+                    <h2 class="nomb_logo">
+                        <span class="nomb_logo_1">Alura</span>
+                        <span class="nomb_logo_2">Geek</span>
+                    </h2>
+                </div>
+                <div class="leftheader_input">
+                    <input id="buscador" type="text" placeholder="¿Qué deseas buscar?">
+                    <button id="buscar" class="btnNav"><span class="icon-magnifying-glass"></span></button>
+                </div>
+            </div>
+            <!--<div class="rightheader">
+                <button class="login" onclick="window.location.href='/login.html'">Login<span class="icon-user"></span></button>
+            </div>-->
+        </header>
+    </div>
+
+    <main class="contenedor-productos">
+        <section class="productos_listado contenedor">
+            <div class="resultado-busqueda contenedor" id="resultado-busqueda" style="margin: 0 auto 2rem auto;"></div>
+
+            <div class="productos_listado-barra">
+                <h2 class="productos_listado-titulo">Todos los productos</h2>
+                <!--<a class="btn-azul" id="agregar-producto">Inicia sesión para agregar productos</a> reemplazado por el de abajo-->
+                <!--<input class="btn-azul" type="button" id="agregar-producto" value="Agregar Producto">-->
+                <button class="btn-azul" id="agregar-producto" onclick="window.location.href='/regisProducto.html'">agregar-producto<span class="icon-squared-plus"></span></button>
+            </div>
+            <div class="productos">
+                <!--Aqui se insertan los productos desde JS-->
+                <!--<div class="producto">  
+                        <div class="imgEdicion">
+                            <img src="./img/lupa.png" alt="img">
+                            <img src="./img/lupa.png" alt="img">
+                            <button><span class="icon-trash"></span></button>
+                            <button><span class="icon-pencil"></span></button>
+                        </div>
+                        <img class="producto_img" src="./images/prod_consolas/Skill.png" alt="producto star wars">
+                        <p class="producto_nombre">BabyYoda</p>
+                        <p class="producto_precio">$300</p>
+                        <a href="${link}?id=${id}" type="button" class="producto_enlace" data-verproducto>Ver producto</a>
+                </div>-->
+            </div>
+        </section>
+    </main>
+
+    <div class="contacto">
+        <div class="contact_main">
+            <div class="contact_logo">
+                <img src="/images/logoGame.png" alt="">
+                <h3><span>Alura</span>Geek</h3>
+            </div>
+            <div class="contact_more">
+                <p class="parafo">Quienes somos</p>
+                <p class="parafo">Política de privacidad</p>
+                <p class="parafo">Programa de fidelidad</p>
+                <p class="parafo">Nuestras Tiendas</p>
+                <p class="parafo">Quiero ser franquiciado</p>
+                <p class="parafo">Anúncie aquí</p>
+            </div>
+            <div class="contact_inputs">
+                <p>Hable con nosotros</p>
+                <input class="inputnombre" type="text" placeholder="Nombre">
+                <input class="textarea" type="text" placeholder="Escribe tu mensaje">
+                <button class="btncontact">Enviar mensaje</button>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Desarrollado por Ruben Limachi Huallpa</p>
+        <p>2023</p>
+    </footer>
+
+    <script type="module" src="./controllers/verTodo-controller.js"></script>
+    <script type="module" src="./controllers/buscar-producto.js"></script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/editProducto/header.css">
+    <link rel="stylesheet" href="./css/editProducto/main.css">
+    <link rel="stylesheet" href="./css/editProducto/contacto.css">
+    <link rel="stylesheet" href="./css/editProducto/footer.css">
+    <title>Editar Producto</title>
+</head>
+<body>
+
+    <div class="container_header">
+        <header>
+            <div class="leftheader">
+                <div class="leftheader_logo">
+                    <img class="imgLogo" src="./images/logoGame.png" alt="">
+                    <h2 class="nomb_logo">
+                        <span class="nomb_logo_1">Alura</span>
+                        <span class="nomb_logo_2">Geek</span>
+                    </h2>
+                </div>
+                <div class="leftheader_input">
+                    <input type="text" placeholder="¿Qué deseas buscar?">
+                    <button class="btnNav"><span class="icon-magnifying-glass"></span></button>
+                </div>
+            </div>
+            <!--<div class="rightheader">
+                <button class="login" onclick="window.location.href='/login.html'">Login<span class="icon-user"></span></button>
+            </div>-->
+        </header>
+    </div>
+    
+    <main class="contenedor-productos">
+        <div class="form_container">
+            <form id="formulario" class="formulario contenedor">
+                <h3 class="formulario_titulo">Agregar nuevo producto</h3>
+
+                <div class="cont-errores">
+                </div>
+
+                <img src="./images/banner.png" alt="img" id="imgVisualizado">
+
+                <!--/*<label for="subir-img">
+                    <span>Seleccionar Imagen</span>
+                </label>
+
+                <span class="subir-img">
+                    <input class="input-file" type="file" id="subir-img" accept="image/*" />
+                </span>
+                */-->
+                <br>
+
+                <img class="input-file_img" id="img" />
+
+                <div class="contenedor_input">
+                    <input class="input" type="text" placeholder="Nombre" id="nombre">
+                    <label class="input-label" for="nombre-producto">Nombre</label>
+                </div>
+
+                <div class="contenedor_input">
+                    <input class="input" type="text" placeholder="Precio" id="precio">
+                    <label class="input-label" for="precio-producto">Precio</label>
+                </div>
+
+                <div class="contenedor_input">
+                    <input class="input" type="text" placeholder="Url" id="imagen">
+                    <label class="input-label" for="url">URL de la imagen</label>
+                </div>
+
+                <div class="contenedor_input">
+                    <select class="select" id="categoria">
+                        <option value="" disabled selected> -- Seleccione una categoría -- </option>
+                        <option value="star">Star Wars</option>
+                        <option value="consolas">Consolas</option>
+                        <option value="diversos">Diversos</option>
+                    </select>
+                </div>
+                <div class="contenedor_input">
+                    <input class="btn-azul" id="registrar-producto-btn" type="submit" value="Registrar Producto" 
+                    style="width: 100%;">
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <div class="contacto">
+            <div class="contact_main">
+                <div class="contact_logo">
+                    <img src="/images/logoGame.png" alt="">
+                    <h3><span>Alura</span>Geek</h3>
+                </div>
+                <div class="contact_more">
+                    <p class="parafo">Quienes somos</p>
+                    <p class="parafo">Política de privacidad</p>
+                    <p class="parafo">Programa de fidelidad</p>
+                    <p class="parafo">Nuestras Tiendas</p>
+                    <p class="parafo">Quiero ser franquiciado</p>
+                    <p class="parafo">Anúncie aquí</p>
+                </div>
+                <div class="contact_inputs">
+                    <p>Hable con nosotros</p>
+                    <input class="inputnombre" type="text" placeholder="Nombre">
+                    <input class="textarea" type="text" placeholder="Escribe tu mensaje">
+                    <button class="btncontact">Enviar mensaje</button>
+                </div>
+            </div>
+    </div>
+        
+    <footer>
+            <p>Desarrollado por Ruben Limachi Huallpa</p>
+            <p>2023</p>
+    </footer>
+
+    <script type="module" src="./controllers/actualizar-controller.js"></script>
+</body>
+</html>

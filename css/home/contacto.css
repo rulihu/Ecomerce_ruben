@@ -1,0 +1,110 @@
+.contacto {
+    background-color: #EAF2FD;
+    padding: 30px 50px 25px 50px;
+}
+.contact_main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (min-width: 768px){
+    .contacto {
+        display: flex;
+        justify-content: space-between;
+    }
+    .contact_main {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        gap: 10rem;
+    }
+    .contact_main {
+        max-width: 120em;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .contact_logo{
+        width: 160px;
+        display: flex;
+        gap: 2%;
+        align-items: start;
+    }
+}
+.contact_logo span { 
+    color: #1268F3;
+}
+.contact_more {
+    max-width: 100%;
+}
+.parafo {
+    color: #464646;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+}
+.contact_inputs p {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 18.78px;
+    margin-bottom: 15px;
+}
+.contact_inputs {
+    width: 51%;
+}
+.inputnombre {
+    width: 100%;
+    height: 45px;
+    padding-left: 15px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: none;
+    font-size: 16px;
+}
+.textarea {
+    width: 100%;
+    height: 80px;
+    padding-left: 15px;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 16px;
+}
+
+.btncontact {
+    width: 28.5%;
+    height: 45px;
+    border-radius: 4px;
+    border: none;
+    background: #1268F3;
+    color: white;
+    border: 1px solid #1268F3;
+    border-radius: 10px;
+    transform: all 0.3s;
+}
+.btncontact:hover {
+    transform: scale(1.1);
+}
+@media screen and (max-width:500px) {
+    .contacto {
+        display: flex;
+        flex-direction: column;
+    }
+    .parafo {
+        color: #464646;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 35px;
+        text-align: left;
+        margin-bottom: 13px;
+        margin-top: 10px;
+    }
+    .contact_inputs {
+        width: 100%;
+    }
+    .contact_more{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

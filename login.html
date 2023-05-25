@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/login/header.css">
+    <link rel="stylesheet" href="./css/login/login.css">
+    <link rel="stylesheet" href="./css/login/main.css">
+    <link rel="stylesheet" href="./css/login/footer.css">
+    <link rel="stylesheet" href="./css/login/contacto.css">
+    <title>login</title>
+</head>
+<body>
+    <div class="container_header">
+        <header>
+            <div class="leftheader">
+                <div class="leftheader_logo">
+                    <img class="imgLogo" src="./images/logoGame.png" alt="">
+                    <h2 class="nomb_logo">
+                        <span class="nomb_logo_1">Alura</span>
+                        <span class="nomb_logo_2">Geek</span>
+                    </h2>
+                </div>
+                <div class="leftheader_input">
+                    <input type="text" placeholder="¿Qué deseas buscar?">
+                    <button class="btnNav"><span class="icon-magnifying-glass"></span></button>
+                </div>
+            </div>
+            <!--<div class="rightheader">
+                <button class="login">Login<span class="icon-user"></span></button>
+            </div>-->
+        </header>
+    </div>
+
+    <main>
+        <div class="form_container">
+            <form action="" class="form_formulario" data-form>
+                <h3 class="form_cabecera">Iniciar Sesión</h3>
+                <div class="contenedor_input">
+                    <input
+                    type="email"
+                    class="form_input_email"
+                    id="email"
+                    placeholder="Escriba su correo electrónico"
+                    required
+                    data-email
+                    />
+                    <label class="input-label" for="">Escriba su correo electronico</label>
+                </div>
+                <div class="contenedor_input">
+                    <input
+                    type="password"
+                    class="form_input_password"
+                    id="password"
+                    placeholder="Escriba su contraseña"
+                    required
+                    data-password
+                    />
+                    <label class="input-label" for="">Escriba su contraseña</label>
+                </div>
+                <div class="contenedor_input">
+                    <input class="form_submit" id="iniciar-sesion" type="button" value="Entrar">
+                </div>
+            </form>
+        </div>
+    </main>
+
+
+
+    <div class="contacto">
+        <div class="contact_main">
+            <div class="contact_logo">
+                <img src="/images/logoGame.png" alt="">
+                <h3><span>Alura</span>Geek</h3>
+            </div>
+            <div class="contact_more">
+                <p class="parafo">Quienes somos</p>
+                <p class="parafo">Política de privacidad</p>
+                <p class="parafo">Programa de fidelidad</p>
+                <p class="parafo">Nuestras Tiendas</p>
+                <p class="parafo">Quiero ser franquiciado</p>
+                <p class="parafo">Anúncie aquí</p>
+            </div>
+            <div class="contact_inputs">
+                <p>Hable con nosotros</p>
+                <input class="inputnombre" type="text" placeholder="Nombre">
+                <input class="textarea" type="text" placeholder="Escribe tu mensaje">
+                <button class="btncontact">Enviar mensaje</button>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Desarrollado por Ruben Limachi Huallpa</p>
+        <p>2023</p>
+    </footer>
+
+    <script type="module" src="./controllers/login-controller.js"></script>
+
+</body>
+</html>
