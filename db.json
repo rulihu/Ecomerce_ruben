@@ -151,20 +151,11 @@
       "categoria": "star"
     },
     {
-      "id": "f35bf081-0626-45c4-9bc9-e58709ea7180",
-      "nombre": "prueba",
-      "precio": "150",
-      "imagen": "./images/prod_starwars/Skill.png",
-      "categoria": "star",
-      "link": "./vista-producto.html"
-    },
-    {
-      "id": "75c6ca30-ffbf-4367-a0ce-9ad7640dd642",
-      "nombre": "prueba",
-      "precio": "150",
-      "imagen": "./images/prod_starwars/Skill3.png",
-      "categoria": "star",
-      "link": "./vista-producto.html"
+      "id": "07fdfd3a-4f1f-43fd-90de-9b8fd4e97c39",
+      "nombre": "pruebaa",
+      "precio": "1500",
+      "imagen": "./images/prod_consolas/Skill5.png",
+      "categoria": "consolas"
     }
   ],
   "usuarios": [
